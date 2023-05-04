@@ -1,0 +1,18 @@
+.fact{
+
+        width: 300px;
+        float: left;
+        height: auto;
+}
+body{
+    background:linear-gradient(rgba(192, 135, 194, 0.5),rgba(182, 121, 172, 0.3)), url(https://img.huffingtonpost.com/asset/612db2203b00009fd1ee897d.jpeg?ops=1778_1000);
+    background-size: 10;
+}
+h1{
+    font-size: 100;
+    color: cyan;
+}
+h3{
+    font-size: 50;
+    color: cyan;
+}

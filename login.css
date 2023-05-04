@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppings';
+    color: white;
+}
+body{
+    background: linear-gradient(rgba(192, 135, 194, 0.5),rgba(182, 121, 172, 0.3)), url(https://images.theconversation.com/files/439369/original/file-20220104-19-12kg47e.jpg?ixlib=rb-1.1.0&rect=231%2C23%2C5094%2C2547&q=45&auto=format&w=1356&h=668&fit=crop);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.login-section{
+    border: 2px solid blueviolet;
+    height: 490px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(10x);
+    border-radius: 10px;
+    transition: .3s;
+}
+.login-section:hover{
+    box-shadow: 0 0 60px blueviolet;
+}
+.login-section .formbox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.formbox h2{
+    text-align: center;
+    font-size: 35px;
+}
+.formbox .input-box{
+    width: 340px;
+    height: 50%;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+    color: white;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    transition:  .3s ease;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.remember-password{
+    font-size: 14px;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.remember-password label input{
+    accent-color: blueviolet;
+    margin-right: 3px;
+}
+.remember-password a{
+    color: white;
+    font-weight: 600;
+
+}
+.btn{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: blueviolet;
+    box-shadow: (0,0,0,0,4);
+}
+.create-account{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 25px;
+
+}
+.create-account p a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    color: #824f96;
+
+}
+.create-account p a:hover{
+    columns:blueviolet;
+    font-weight: 600;
+    
+
+}

@@ -1,0 +1,8 @@
+.bichig2{
+
+    font-size: 15px;
+    color: rgb(0, 255, 242);
+}
+body{
+    background: linear-gradient(rgba(192, 135, 194, 0.5),rgba(182, 121, 172, 0.3)), url(https://images.theconversation.com/files/439369/original/file-20220104-19-12kg47e.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop);
+}
